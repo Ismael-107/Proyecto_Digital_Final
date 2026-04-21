@@ -24,8 +24,8 @@ In many small and medium-sized companies, employee time tracking is still done m
  
 3. Open a terminal, navigate to the folder, and run the file called Fichaje.py using Python.
 
-4.Once the program is running, you will need the admin username and password to manage (add or delete) users.
-  Each user has their own username and password to log their working hours.
+ 4.Once the program is running, you will need the admin username and password to manage (add or delete) users.
+   Each user has their own username and password to log their working hours.
 
 5. If you want to decrypt employee files, run Desencriptador.py.
 
