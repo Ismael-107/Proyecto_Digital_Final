@@ -1,0 +1,108 @@
+🧩 1. Overview
+Project Name: Secure Time‑Tracking System
+This project is a lightweight, secure, and offline‑friendly time‑tracking application designed for small and medium‑sized companies.
+It allows employees to clock in and out using personal accounts, while all activity logs are stored in an encrypted file accessible only through an authorized decryptor.
+
+The goal of the project is to support digital transformation by replacing manual time‑tracking processes with a secure, auditable, and user‑friendly solution.
+
+🏗️ 2. Architecture
+Main Components
+User Management Module  
+Handles employee accounts, authentication, and admin‑level access.
+
+Time‑Tracking Engine  
+Automatically records check‑in and check‑out timestamps.
+
+Encryption Layer  
+Protects all stored data using a symmetric encryption algorithm (AES or similar).
+
+Decryption Tool  
+Allows authorized personnel to decrypt and review employee logs.
+
+Storage System  
+Encrypted file containing structured time‑tracking records.
+
+Data Flow
+User logs in with username + password
+
+System validates credentials
+
+User clocks in/out
+
+Timestamp is appended to encrypted log file
+
+Admin can decrypt logs using the decryptor tool
+
+🛠️ 3. Developer Guide
+Requirements
+Python 3.x
+
+Required libraries (listed in requirements.txt)
+
+Git for version control
+
+Project Structure
+Código
+/project-root
+│── src/
+│   ├── Fichaje.py
+│   ├── Desencriptador.py
+│── docs/
+│── README.md
+│── CONTRIBUTING.md
+│── LICENSE
+Coding Standards
+Follow PEP8 style guidelines
+
+Use docstrings for all functions
+
+Keep modules small and single‑responsibility
+
+Documentation Generation
+If using Sphinx or similar:
+
+Código
+sphinx-apidoc -o docs/ src/
+make html
+🔐 4. Encryption System
+Purpose
+To ensure that employee time‑tracking data cannot be accessed or modified by unauthorized users.
+
+Features
+Symmetric encryption for log files
+
+Secure key storage
+
+Separate decryptor tool for admin use
+
+Protection against tampering
+
+Security Considerations
+Passwords should be hashed
+
+Encryption keys must not be hardcoded
+
+Logs should be validated before decryption
+
+🧪 5. Testing
+Types of Tests
+Unit tests for user authentication
+
+Unit tests for encryption/decryption
+
+Integration tests for time‑tracking workflow
+
+Running Tests
+Código
+pytest
+🚀 6. Roadmap
+Planned Improvements
+Web dashboard for admins
+
+API for integration with payroll systems
+
+Multi‑factor authentication
+
+Cloud‑based encrypted storage
+
+Mobile version
