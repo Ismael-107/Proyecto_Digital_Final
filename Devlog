@@ -1,0 +1,19 @@
+Devlog
+Day 1 – Concept and Initial Planning
+I brainstormed the core idea and explored how the application could be implemented using Python.
+The focus was on defining the main features and understanding the technical requirements.
+
+Day 2 – Early Prototyping
+With a clearer vision of the system, and using Vibe Coding for support, I created several test versions to observe how the application interacted with the environment and validated the basic workflow.
+
+Day 3 – Improved Prototype
+After testing and refining the initial versions, I achieved a more polished prototype.
+However, I identified that the system still needed an additional security layer to protect sensitive data.
+
+Day 4 – Security and User System Implementation
+I implemented the user system, including admin‑level authentication, encrypted storage for employee data, and a dedicated decryptor tool for authorized access.
+This significantly improved the security and structure of the project.
+
+Day 5 – Version 1.0 Completed
+The application reached a stable and functional state, meeting all initial objectives.
+Version 1.0 was finalized and prepared for release.
