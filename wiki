@@ -1,11 +1,11 @@
-🧩 1. Overview
+1. Overview
 Project Name: Secure Time‑Tracking System
 This project is a lightweight, secure, and offline‑friendly time‑tracking application designed for small and medium‑sized companies.
 It allows employees to clock in and out using personal accounts, while all activity logs are stored in an encrypted file accessible only through an authorized decryptor.
 
 The goal of the project is to support digital transformation by replacing manual time‑tracking processes with a secure, auditable, and user‑friendly solution.
 
-🏗️ 2. Architecture
+2. Architecture
 Main Components
 User Management Module  
 Handles employee accounts, authentication, and admin‑level access.
@@ -64,7 +64,7 @@ If using Sphinx or similar:
 Código
 sphinx-apidoc -o docs/ src/
 make html
-🔐 4. Encryption System
+4. Encryption System
 Purpose
 To ensure that employee time‑tracking data cannot be accessed or modified by unauthorized users.
 
@@ -84,7 +84,7 @@ Encryption keys must not be hardcoded
 
 Logs should be validated before decryption
 
-🧪 5. Testing
+5. Testing
 Types of Tests
 Unit tests for user authentication
 
@@ -95,7 +95,7 @@ Integration tests for time‑tracking workflow
 Running Tests
 Código
 pytest
-🚀 6. Roadmap
+6. Roadmap
 Planned Improvements
 Web dashboard for admins
 
