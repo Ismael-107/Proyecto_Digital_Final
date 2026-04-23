@@ -3,6 +3,7 @@
 ## Motivation
 In many small and medium-sized companies, employee time tracking is still done manually or using insecure systems. This project aims to provide a secure, simple, and open-source solution for managing employee work hours using encryption and role-based access.
 
+the html in /docs/build/html/index
 ## Features
 - User authentication (username + password)
 - Admin role for user management (add/remove users)
